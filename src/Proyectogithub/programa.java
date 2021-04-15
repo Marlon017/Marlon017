@@ -4,13 +4,13 @@ public class programa {
 //Estoy editando el archivo.java desde github
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		String contraseÃ±a="123";
+		String contraseña="123";
 		String cadena="";
 
 		for(int i=1;i<=3;i++){
 			System.out.println("ContraseÃ±a:");
 			cadena=entrada.nextLine();
-			if(contraseÃ±a.equals(cadena)) {
+			if(contraseña.equals(cadena)) {
 				System.out.println("Enhorabuena");
 				i=4;
 			}
