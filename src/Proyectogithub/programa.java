@@ -1,16 +1,16 @@
 package Proyectogithub;
 import java.util.Scanner;
 public class programa {
-
+//Estoy editando el archivo.java desde github
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		String contraseña="123";
+		String contraseÃ±a="123";
 		String cadena="";
 
 		for(int i=1;i<=3;i++){
-			System.out.println("Contraseña:");
+			System.out.println("ContraseÃ±a:");
 			cadena=entrada.nextLine();
-			if(contraseña.equals(cadena)) {
+			if(contraseÃ±a.equals(cadena)) {
 				System.out.println("Enhorabuena");
 				i=4;
 			}
