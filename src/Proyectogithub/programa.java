@@ -19,6 +19,6 @@ public class programa {
 			}
 		}
 		
-		System.out.println("Programa finalizado");
+		System.out.println("Programa finalizado y listo para abrirlo otra vez");
 	}
 }
